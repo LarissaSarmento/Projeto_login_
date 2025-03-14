@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Pequens telas: até 600px
+ Celular: de 601px até 768px
+ Tablet: 769px até 992px
+ Grandes telas: 993px até 1201px */
+
+ @media screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to right, pink, blue);
+    }
+
+    #login {
+        width: 80vw;
+    }
+      
+    #login > #imagem {
+        float:left;
+        height: 100%;
+    }
+    
+ }
+
+ @media screen and (min-width: 993px) {
+    body {
+        background-image: linear-gradient(to top, pink, blue);
+    }
+
+    #login {
+        width: 998px;
+    }
+
+    #login > #imagem {
+        float:right;
+        height: 100%;
+        width: 50%;
+    }
+    
+ }
